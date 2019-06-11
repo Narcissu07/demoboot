@@ -6,7 +6,7 @@ package com.tr.demoboot.api.controller;
 public class mytest {
     public static void main(String[] args){
 
-        System.out.println("------------okkkkk");
+        System.out.println("------------okkkkk1");
 
 
 
