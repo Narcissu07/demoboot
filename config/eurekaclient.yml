@@ -10,7 +10,7 @@ spring:
     password: guest
   sleuth:
     sampler:
-      probability : 1.0
+      rate : 1
 management:
   endpoints:
     web:
