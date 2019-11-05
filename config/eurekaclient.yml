@@ -11,7 +11,7 @@ spring:
   zipkin:
     locator:
       discovery:
-        enabled: true
+        enabled: false
   sleuth:
       sampler:
           percentage: 1.0
