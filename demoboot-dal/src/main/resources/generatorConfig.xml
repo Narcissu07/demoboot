@@ -18,11 +18,11 @@
                     password="root">
     </jdbcConnection>
 
-    <javaModelGenerator targetPackage="com.tr.demoboot.dal.mybatis.model" targetProject="src/main/java"/>
+    <javaModelGenerator targetPackage="com.unicorn.demoboot.dal.mybatis.model" targetProject="src/main/java"/>
 
     <sqlMapGenerator targetPackage="mybatis.mapper"  targetProject="src/main/resources"/>
 
-    <javaClientGenerator targetPackage="com.tr.demoboot.dal.mybatis.mapper" targetProject="src/main/java" type="XMLMAPPER" />
+    <javaClientGenerator targetPackage="com.unicorn.demoboot.dal.mybatis.mapper" targetProject="src/main/java" type="XMLMAPPER" />
 
     <table tableName="user" domainObjectName="UserPO">
       <generatedKey column="id" sqlStatement="Mysql" identity="true"/>

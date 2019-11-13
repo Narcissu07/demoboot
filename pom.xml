@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.tr</groupId>
+		<groupId>com.unicorn</groupId>
 		<artifactId>common-pom</artifactId>
 		<version>1.0</version>
 	</parent>
@@ -19,27 +19,27 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.tr</groupId>
+				<groupId>com.unicorn</groupId>
 				<artifactId>demoboot-api</artifactId>
 				<version>${demoboot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.tr</groupId>
+				<groupId>com.unicorn</groupId>
 				<artifactId>demoboot-biz</artifactId>
 				<version>${demoboot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.tr</groupId>
+				<groupId>com.unicorn</groupId>
 				<artifactId>demoboot-dal</artifactId>
 				<version>${demoboot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.tr</groupId>
+				<groupId>com.unicorn</groupId>
 				<artifactId>demoboot-common</artifactId>
 				<version>${demoboot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.tr</groupId>
+				<groupId>com.unicorn</groupId>
 				<artifactId>common-code</artifactId>
 				<version>${common-code.version}</version>
 			</dependency>
